@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  background-color: skyblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, form{
+  text-align: center;
+  color: black;
+}
+
+button{
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  width: auto;
+  height: auto;
+}
+
+footer {
+  font-size: 10px;
+  float: left;
+}
+
+@media screen and (max-width:900px) {
+  section {
+    width:fit-content;
+    height: fit-content;
+  }
+}
